@@ -17,12 +17,9 @@
 
 > 随机 Wink OvO
 
-<img align="left" src="https://waifu-getter.vercel.app/sfw?eps=wink" />
+<img src="https://waifu-getter.vercel.app/sfw?eps=wink" />
 
 <br />
-
-
-
 
 ## 部署至 Vercel
 
