@@ -19,9 +19,9 @@ If this is helpful to you, please consider giving it a star (o゜▽゜)o☆ . T
 
 > Random Wink OvO
 
-<img align="left" src="https://waifu-getter.vercel.app/sfw?eps=wink" />
+<img src="https://waifu-getter.vercel.app/sfw?eps=wink" />
 
-<br />
+<br>
 
 ## Deploy to Vercel
 
