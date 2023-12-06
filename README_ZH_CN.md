@@ -1,19 +1,19 @@
 # waifu-getter
 
->  **This repo is a fork of  [weeebdev/waifu.pics](https://github.com/weeebdev/waifu.pics), I decided to create a new repo because:**
+>  **这是一个 [weeebdev/waifu.pics](https://github.com/weeebdev/waifu.pics) 的 fork 仓库, 我选择重新创建一个名字不同的仓库是因为:**
 >
-> - The original repo’s name is `waifu.pics`, if I deploy it to Vercel, the project domain will start with `waifu.pics`(like: waifu.pics-xxx-xxx.xxx). 
->   When I use Chrome to access this domain, I’ll receive Google’s warning: `the site may be fake, do you want to visit waifu.pics?`
+> - 原仓库名叫做 `waifu.pics`, 如果部署到 Vercel, 那么项目的域名将以 `waifu.pics` 开头(例如 waifu.pics-xxx-xxx.xxx). 
+>   当我使用 Chrome 访问该域名时, 我会收到 Google 的警告: `这似乎是一个假冒网站，你想访问 waifu.pics 吗?`
 >
-> Check my fork repo [dreamjz/waifu.pics](https://github.com/dreamjz/waifu.pics) if you want to know what modification I have made.
+> 如何你想知道我做了哪些修改，可以查看我 fork 的仓库 [dreamjz/waifu.pics](https://github.com/dreamjz/waifu.pics) 
 
-Simple API wrapped around [waifu.pics](https://waifu.pics/) to be able to get random anime images for markdown (such as GitHub profile). 
+简单封装了 [waifu.pics](https://waifu.pics/) API 用于获取随机的二次元图片直接用在 markdown 文件中(比如 GitHub profile). 
 
 <br/>
 
-If this is helpful to you, please consider giving it a star (o゜▽゜)o☆ . Thank you OwO. 
+如果这个程序对你有所帮助，可以帮忙给一个 star  (o゜▽゜)o☆ ，谢谢 OwO。
 
-> Random Wink OvO
+> 随机 Wink OvO
 
 <img align="left" src="https://waifu-getter.vercel.app/sfw?eps=wink" />
 
@@ -23,15 +23,15 @@ If this is helpful to you, please consider giving it a star (o゜▽゜)o☆ . T
 
 ![](https://political-capable-roll.glitch.me/get/@dreamjz-waifu-getter?theme=rule34)
 
-## Deploy to Vercel
+## 部署至 Vercel
 
-Deploy your own project on Vercel.
+部署你自己的项目到 Vercel 上。
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dreamjz/waifu-getter)
 
-## Quick Start
+## 快速开始
 
-Here are different endpoints for API requests. Endpoints can be updated by the author, please check [official docs](https://waifu.pics/docs).
+下列是可选的种类和类型. 更多详情请查看官方文档 [official docs](https://waifu.pics/docs).
 
 ```js
 sfw: [
@@ -45,9 +45,9 @@ sfw: [
 nsfw: ["waifu", "neko", "trap", "blowjob"],
 ```
 
-### Get image
+### 获取图片
 
-- Only one endpoint:
+- 只用一种指定类型:
   ```sh
   /type/endpoint
   
@@ -60,7 +60,7 @@ nsfw: ["waifu", "neko", "trap", "blowjob"],
 
   ![](https://waifu-getter.vercel.app/sfw/happy)
 
-- Include multiple endpoints, the server will choose one randomly:
+- 包含多种类型，服务器将会随机选择一种:
 
   ```sh
   /type?eps=ep1,ep2,ep3...
@@ -73,7 +73,7 @@ nsfw: ["waifu", "neko", "trap", "blowjob"],
 
   ![](https://waifu-getter.vercel.app/sfw?eps=cry,wave,happy,poke)
 
-- For random endpoint, but exclude some:
+- 随机类型，但是排除不想要的类型:
 
   ```sh
   /type/random?ignore=ep1,ep2,ep3...
@@ -84,7 +84,7 @@ nsfw: ["waifu", "neko", "trap", "blowjob"],
 
 ![](https://waifu-getter.vercel.app/sfw/random?ignore=kill,kiss,bully)
 
-## Use in markdown
+## 如何在 markdown 中使用
 
 ```markdown
 <!-- markdown --->
@@ -94,7 +94,7 @@ nsfw: ["waifu", "neko", "trap", "blowjob"],
 <img src="https://your_domain/type/endpoint" />
 ```
 
-## Thanks
+## 感谢
 
 [weeebdev/waifu.pics](https://github.com/weeebdev/waifu.pics)
 
