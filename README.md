@@ -7,6 +7,10 @@
 >
 > Check my fork repo [dreamjz/waifu.pics](https://github.com/dreamjz/waifu.pics) if you want to know what modification I have made.
 
+English| [简体中文](./README_ZH_CN.md)
+
+![](https://political-capable-roll.glitch.me/get/@dreamjz-waifu-getter?theme=rule34)
+
 Simple API wrapped around [waifu.pics](https://waifu.pics/) to be able to get random anime images for markdown (such as GitHub profile). 
 
 <br/>
@@ -18,11 +22,6 @@ If this is helpful to you, please consider giving it a star (o゜▽゜)o☆ . T
 <img align="left" src="https://waifu-getter.vercel.app/sfw?eps=wink" />
 
 <br />
-<br />
-
-
-
-![](https://political-capable-roll.glitch.me/get/@dreamjz-waifu-getter?theme=rule34)
 
 ## Deploy to Vercel
 

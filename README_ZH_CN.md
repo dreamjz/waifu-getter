@@ -7,6 +7,8 @@
 >
 > 如何你想知道我做了哪些修改，可以查看我 fork 的仓库 [dreamjz/waifu.pics](https://github.com/dreamjz/waifu.pics) 
 
+![](https://political-capable-roll.glitch.me/get/@dreamjz-waifu-getter?theme=rule34)
+
 简单封装了 [waifu.pics](https://waifu.pics/) API 用于获取随机的二次元图片直接用在 markdown 文件中(比如 GitHub profile). 
 
 <br/>
@@ -18,10 +20,9 @@
 <img align="left" src="https://waifu-getter.vercel.app/sfw?eps=wink" />
 
 <br />
-<br />
 
 
-![](https://political-capable-roll.glitch.me/get/@dreamjz-waifu-getter?theme=rule34)
+
 
 ## 部署至 Vercel
 
