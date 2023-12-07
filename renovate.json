@@ -3,5 +3,10 @@
   "extends": [
     "config:base"
   ],
-  "schedule": "every weekend"
+
+  "timezone": "Asia/Shanghai",
+  "schedule": "every weekend",
+
+  "automerge": true
+  
 }
